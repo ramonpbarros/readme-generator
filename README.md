@@ -1,38 +1,53 @@
 
 # Readme Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ramonpbarros/readme-generator)
-> This is a really cool app where you can prompt the user and create a readme file according to user's input!
+> Here goes your awesome project description!
 
 ## Table of contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## Installation
-To install necessary dependencies, run the following command:
-`npm i`
+## General info
+Add more general information about project. What the purpose of the project is? Motivation?
 
-## Usage
-Just npm install dependencies and have fun!
+## Screenshots
+![Example screenshot](./img/screenshot.png)
 
-## License
-This project is licensed under the MIT license.
+## Technologies
+* Tech 1 - version 1.0
+* Tech 2 - version 2.0
+* Tech 3 - version 3.0
 
-## Contributing
-Fell free to contribute to this project! Mek sure to commit changes before pull request.
+## Setup
+Describe how to install / setup your local environement / add link to demo version.
 
-## Tests
-To run tests, run the following command:
-`npm test`
+## Code Examples
+Show examples of usage:
+`put-your-code-here`
 
-## Questions
-<img src="https://avatars3.githubusercontent.com/u/5157463?v=4" alt="avatar" style="border-radius: 16px" width="50" />
+## Features
+List of features ready and TODOs for future development
+* Awesome feature 1
+* Awesome feature 2
+* Awesome feature 3
+
+To-do list:
+* Wow improvement to be done 1
+* Wow improvement to be done 2
+
+## Status
+Project is: _in progress_, _finished_, _no longer continue_ and why?
+
+## Inspiration
+Add here credits. Project inspired by..., based on...
 
 ## Contact
-Created by [@ramonpbarros](https://github.com/ramonpbarros) - feel free to contact me! Directly at ramonpbarros@gmail.com
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
   
   
