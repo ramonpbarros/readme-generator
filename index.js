@@ -92,7 +92,6 @@ function init() {
                     // write to file
                     fsWriteFile("output/README.md", markDown(answers, githubData))
                         .then(() => {
-                            console.log(answers);
                             console.log("Done writting file!")
                         })
                         .catch(error => {
