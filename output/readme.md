@@ -1,7 +1,7 @@
 
-# project
-[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/ramonpbarros/readme-generator)
-> description
+# ramonpbarros
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ramonpbarros/readme-generator)
+> ramonpbarros
 
 ## Table of contents
 * [Installation](#installation)
@@ -17,13 +17,13 @@ To install necessary dependencies, run the following command:
 `npm i`
 
 ## Usage
-installation
+ramonpbarros
 
 ## License
-This project is licensed under the GPLv3 license.
+This project is licensed under the MIT license.
 
 ## Contributing
-contributing
+ramonpbarros
 
 ## Tests
 To run tests, run the following command:
