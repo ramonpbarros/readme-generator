@@ -29,7 +29,7 @@ const questionsArray = [{
     message: "Please write a short description of your project:"
 },
 {
-    type: "checkbox",
+    type: "list",
     name: "license",
     message: "What kind of license should your project have?",
     choices: [
@@ -37,13 +37,13 @@ const questionsArray = [{
             name: "MIT"
         },
         {
-            name: "APACHE 2.0"
+            name: "APACHE%202.0"
         },
         {
-            name: "GPL 3.0"
+            name: "GPLv3"
         },
         {
-            name: "BSD 3"
+            name: "BSD%203"
         },
         {
             name: "None"
@@ -51,7 +51,7 @@ const questionsArray = [{
     ]
 },
 {
-    type: "checkbox",
+    type: "list",
     name: "installation",
     message: "What command should be run to run install dependecies?",
     choices: [
@@ -61,7 +61,7 @@ const questionsArray = [{
     ]
 },
 {
-    type: "checkbox",
+    type: "list",
     name: "tests",
     message: "What command should be run to run tests?",
     choices: [
@@ -90,7 +90,7 @@ function init() {
                     // have access to answers and githubData here
                     // generate markdown
                     // write to file
-                    fsWriteFile("readme.md", markDown(answers, githubData))
+                    fsWriteFile("output/readme.md", markDown(answers, githubData))
                         .then(() => {
                             console.log(answers);
                             console.log("Done writting file!")

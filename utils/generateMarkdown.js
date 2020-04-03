@@ -1,8 +1,8 @@
 // TODO: Return markdown string for README file given a data object.
 function generateMarkdown(response, githubData) {
-    return `
+  return `
 # ${response.project}
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ramonpbarros/readme-generator)
+[![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-blue.svg)](https://github.com/ramonpbarros/readme-generator)
 > ${response.description}
 
 ## Table of contents
@@ -29,6 +29,7 @@ ${response.contribute}
 
 ## Tests
 To run tests, run the following command:
+
 \`${response.tests}\`
 
 ## Questions
