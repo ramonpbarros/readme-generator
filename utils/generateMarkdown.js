@@ -1,5 +1,5 @@
 // TODO: Return markdown string for README file given a data object.
-function generateMarkdown(response) {
+function generateMarkdown(response, githubData) {
     return `
 # ${response.project}
 
@@ -30,7 +30,7 @@ To run tests, run the following command:
 \`${response.tests}\`
 
 ## Questions
-
+<img src="${githubData.data.avatar_url}" alt="avatar" style="border-radius: 16px" width="30" />
 
 ## Contact
 Created by [@ramonpbarros](https://github.com/ramonpbarros) - feel free to contact me!

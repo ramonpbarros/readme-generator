@@ -10,7 +10,7 @@ let markDown = require("./utils/generateMarkdown");
 
 const questionsArray = [{
     type: "input",
-    name: "github",
+    name: "username",
     message: "What is your GitHub username?"
 },
 {
@@ -77,20 +77,22 @@ const questionsArray = [{
 }
 ];
 
-inquirer.prompt(questionsArray)
-    .then(response => {
-        fsWriteFile("readme.md", markDown(response))
-            .then(() => {
-                console.log(response);
-                console.log("Done writting file!")
-            })
-            .catch(error => {
-                throw error;
-            })
-    })
-    .catch(error => {
-        throw error;
-    })
+// inquirer.prompt(questionsArray)
+//     .then(response => {
+//         api.getUser(response.github)
+//         fsWriteFile("readme.md", markDown(response))
+//             .then(() => {
+//                 console.log(response);
+//                 console.log("Done writting file!")
+//             })
+//             .catch(error => {
+//                 throw error;
+//             })
+//     })
+//     .catch(error => {
+//         throw error;
+//     })
+
 
 // TODO: Write function to synchronously write data in the
 // current working directory to file named for the fileName parameter.
@@ -102,8 +104,28 @@ inquirer.prompt(questionsArray)
 // questions array. Then call api.getUser to fetch the user profile
 // data from GitHub. Finally generate the markdown and use writeToFile
 // to create the README.md file.
-// function init() {
 
-// }
+function init() {
+    inquirer.prompt(questionsArray)
+        .then(answers => {
+            api.getUser(answers.username)
+                .then(githubData => {
+                    // have access to answers and githubData here
+                    // generate markdown
+                    // write to file
+                    fsWriteFile("readme.md", markDown(answers, githubData))
+                        .then(() => {
+                            console.log(answers);
+                            console.log("Done writting file!")
+                        })
+                        .catch(error => {
+                            throw error;
+                        })
+                });
+        })
+        .catch(error => {
+            throw error;
+        })
+}
 
-// init();
+init();

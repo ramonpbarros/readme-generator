@@ -1,5 +1,5 @@
 
-# super project
+# idk
 
 ## Table of contents
 * [Installation](#installation)
@@ -15,20 +15,20 @@ To install necessary dependencies, run the following command:
 `npm i`
 
 ## Usage
-just have fun!
+idk
 
 ## License
 This project is licensed under the MIT license.
 
 ## Contributing
-sure go ahead and pull request!
+idk
 
 ## Tests
 To run tests, run the following command:
 `npm test`
 
 ## Questions
-
+<img src="https://avatars3.githubusercontent.com/u/5157463?v=4" alt="avatar" style="border-radius: 16px" width="30" />
 
 ## Contact
 Created by [@ramonpbarros](https://github.com/ramonpbarros) - feel free to contact me!
