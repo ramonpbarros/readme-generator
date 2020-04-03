@@ -1,5 +1,7 @@
-
-# super project
+// TODO: Return markdown string for README file given a data object.
+function generateMarkdown(response) {
+    return `
+# ${response.project}
 
 ## Table of contents
 * [Installation](#installation)
@@ -12,20 +14,20 @@
 
 ## Installation
 To install necessary dependencies, run the following command:
-`npm i`
+\`${response.installation}\`
 
 ## Usage
-just have fun!
+${response.usage}
 
 ## License
-This project is licensed under the MIT license.
+This project is licensed under the ${response.license} license.
 
 ## Contributing
-sure go ahead and pull request!
+${response.contribute}
 
 ## Tests
 To run tests, run the following command:
-`npm test`
+\`${response.tests}\`
 
 ## Questions
 
@@ -33,4 +35,7 @@ To run tests, run the following command:
 ## Contact
 Created by [@ramonpbarros](https://github.com/ramonpbarros) - feel free to contact me!
   
-  
+  `;
+}
+
+module.exports = generateMarkdown;
