@@ -90,7 +90,7 @@ function init() {
                     // have access to answers and githubData here
                     // generate markdown
                     // write to file
-                    fsWriteFile("output/readme.md", markDown(answers, githubData))
+                    fsWriteFile("output/README.md", markDown(answers, githubData))
                         .then(() => {
                             console.log(answers);
                             console.log("Done writting file!")

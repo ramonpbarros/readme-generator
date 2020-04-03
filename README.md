@@ -1,7 +1,7 @@
 
 # Readme Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ramonpbarros/readme-generator)
-> Here goes your awesome project description!
+> This is a command-line application that dynamically generates a README.md from a user's input. The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their profile image. They will then be prompted with questions about their project.
 
 ## Table of contents
 * [General info](#general-info)
@@ -14,40 +14,43 @@
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* JavaScript
+* Node.js
+* NPM
+* GitHub API
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+This application runs in the terminal. Make sure to npm install dependencies!
+
+Repository can be found here: [GitHub/ramonpbarros](https://github.com/ramonpbarros/readme-generator) Make sure to git clone and check out the code!
 
 ## Code Examples
 Show examples of usage:
-`put-your-code-here`
+`fsWriteFile("output/README.md", markDown(answers, githubData)).then(() => {}.catch(() => {})`
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+List of features:
+* Use of fs module to prompt the user.
+* Use of axios package to retrive information from GitHub API.
+* Dynamically genarate a README.md file.
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Authenticate application with GitHub API to retrieve more information from the user.
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _in progress_
+* Check the application in the terminal. The application will be invoked with the following command: `node index.js.`
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+Project inspired by UCSD Coding Bootcamp, based on second month of course, applying node.js and JavaScript skills.
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@ramonpbarros](https://github.com/ramonpbarros) - feel free to contact me!
   
   
