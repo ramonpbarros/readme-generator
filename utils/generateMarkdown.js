@@ -2,7 +2,8 @@
 function generateMarkdown(response, githubData) {
     return `
 # ${response.project}
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ramonpbarros/readme-generator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ramonpbarros/readme-generator)
+> ${response.description}
 
 ## Table of contents
 * [Installation](#installation)
@@ -34,7 +35,7 @@ To run tests, run the following command:
 <img src="${githubData.data.avatar_url}" alt="avatar" style="border-radius: 16px" width="50" />
 
 ## Contact
-Created by [@ramonpbarros](https://github.com/ramonpbarros) - feel free to contact me!
+Created by [@${githubData.data.login}](${githubData.data.html_url}) - feel free to contact me! Directly at ${response.email}
   
   `;
 }
