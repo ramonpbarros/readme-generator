@@ -1,6 +1,6 @@
 
 # Readme Generator
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ramonpbarros/readme-generator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ramonpbarros/readme-generator)
 
 ## Table of contents
 * [Installation](#installation)
