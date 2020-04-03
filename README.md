@@ -1,5 +1,6 @@
 
-# idk
+# Readme Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ramonpbarros/readme-generator)
 
 ## Table of contents
 * [Installation](#installation)
@@ -15,20 +16,20 @@ To install necessary dependencies, run the following command:
 `npm i`
 
 ## Usage
-idk
+Just npm install dependencies and have fun!
 
 ## License
 This project is licensed under the MIT license.
 
 ## Contributing
-idk
+fell free to contribute to this project! Mek sure to commit changes before pull request.
 
 ## Tests
 To run tests, run the following command:
 `npm test`
 
 ## Questions
-<img src="https://avatars3.githubusercontent.com/u/5157463?v=4" alt="avatar" style="border-radius: 16px" width="30" />
+<img src="https://avatars3.githubusercontent.com/u/5157463?v=4" alt="avatar" style="border-radius: 16px" width="50" />
 
 ## Contact
 Created by [@ramonpbarros](https://github.com/ramonpbarros) - feel free to contact me!

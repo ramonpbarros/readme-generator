@@ -2,6 +2,7 @@
 function generateMarkdown(response, githubData) {
     return `
 # ${response.project}
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ramonpbarros/readme-generator)
 
 ## Table of contents
 * [Installation](#installation)
@@ -30,7 +31,7 @@ To run tests, run the following command:
 \`${response.tests}\`
 
 ## Questions
-<img src="${githubData.data.avatar_url}" alt="avatar" style="border-radius: 16px" width="30" />
+<img src="${githubData.data.avatar_url}" alt="avatar" style="border-radius: 16px" width="50" />
 
 ## Contact
 Created by [@ramonpbarros](https://github.com/ramonpbarros) - feel free to contact me!

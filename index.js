@@ -77,34 +77,6 @@ const questionsArray = [{
 }
 ];
 
-// inquirer.prompt(questionsArray)
-//     .then(response => {
-//         api.getUser(response.github)
-//         fsWriteFile("readme.md", markDown(response))
-//             .then(() => {
-//                 console.log(response);
-//                 console.log("Done writting file!")
-//             })
-//             .catch(error => {
-//                 throw error;
-//             })
-//     })
-//     .catch(error => {
-//         throw error;
-//     })
-
-
-// TODO: Write function to synchronously write data in the
-// current working directory to file named for the fileName parameter.
-// The data parameter is the text to write to the file.
-// function writeToFile(fileName, data) {
-// }
-
-// TODO: Use inquirer to prompt the user for each question in the
-// questions array. Then call api.getUser to fetch the user profile
-// data from GitHub. Finally generate the markdown and use writeToFile
-// to create the README.md file.
-
 function init() {
     inquirer.prompt(questionsArray)
         .then(answers => {
