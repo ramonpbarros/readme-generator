@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ramonpbarros/readme-generator/issues"
   },
-  "homepage": "https://github.com/ramonpbarros/readme-generator#readme"
+  "homepage": "https://github.com/ramonpbarros/readme-generator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0"
+  }
 }

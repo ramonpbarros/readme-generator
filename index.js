@@ -1,4 +1,9 @@
 // TODO: import fs, path and inquirer modules
+const fs = require("fs");
+const util = require("util");
+
+const inquirer = require("inquirer");
+const axios = require("axios");
 
 // TODO: import api and generateMarkdown modules from ./utils/
 
