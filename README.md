@@ -45,7 +45,7 @@ To-do list:
 
 ## Status
 Project is: _in progress_
-* Check the application in the terminal. The application will be invoked with the following command: `node index.js.`
+* Check the application in the terminal. The application will be invoked with the following command: `node index.js`
 
 ## Inspiration
 Project inspired by UCSD Coding Bootcamp, based on second month of course, applying node.js and JavaScript skills.
